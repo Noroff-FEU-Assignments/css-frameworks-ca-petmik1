@@ -1,0 +1,12 @@
+$colors: (
+    background1:#ffff,
+    background2:#e5e5e5
+);
+
+@function getColor ($color){
+    @return map-get($colors, $color )
+};
+
+body {
+    background: radial-gradient(circle at center, getColor(background1), getColor(background2));
+};
