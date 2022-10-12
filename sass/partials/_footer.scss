@@ -2,3 +2,10 @@ footer {
     // width: 100%;
     background-color: getColor(white);
 }
+
+@media (min-width: 992px){
+    footer {
+        flex-direction: row;
+        
+    }
+}

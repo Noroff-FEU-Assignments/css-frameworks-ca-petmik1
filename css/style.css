@@ -3,10 +3,19 @@ body {
   background: radial-gradient(circle at center, white, #e5e5e5);
 }
 
+.navbar-brand {
+  color: #E92569 !important;
+}
+
 footer {
   background-color: #ffffff;
 }
 
+@media (min-width: 992px) {
+  footer {
+    flex-direction: row;
+  }
+}
 /*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -17,6 +26,9 @@ footer {
   --bs-background1: white;
   --bs-background2: #e5e5e5;
   --bs-white: #ffffff;
+  --bs-primary: #E92569;
+  --bs-secendary: #EFEFEF;
+  --bs-tertiery: #767676;
   --bs-gray-100: #f8f9fa;
   --bs-gray-200: #e9ecef;
   --bs-gray-300: #dee2e6;
