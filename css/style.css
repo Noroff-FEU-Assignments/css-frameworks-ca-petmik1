@@ -3,6 +3,10 @@ body {
   background: radial-gradient(circle at center, white, #e5e5e5);
 }
 
+footer {
+  background-color: #ffffff;
+}
+
 /*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -12,6 +16,7 @@ body {
 :root {
   --bs-background1: white;
   --bs-background2: #e5e5e5;
+  --bs-white: #ffffff;
   --bs-gray-100: #f8f9fa;
   --bs-gray-200: #e9ecef;
   --bs-gray-300: #dee2e6;

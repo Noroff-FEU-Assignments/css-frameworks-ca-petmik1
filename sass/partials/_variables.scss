@@ -1,0 +1,10 @@
+$colors: (
+    background1:#ffff,
+    background2:#e5e5e5, 
+    white: #ffffff,
+    
+);
+
+@function getColor ($color){
+    @return map-get($colors, $color )
+};
