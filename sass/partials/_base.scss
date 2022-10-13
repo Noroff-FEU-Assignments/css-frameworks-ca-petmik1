@@ -3,3 +3,19 @@
 body {
     background: radial-gradient(circle at center, getColor(background1), getColor(background2));
 };
+.btn {
+    background-color: getColor(primary);
+    border-radius: 0;
+}
+h1 {
+    color: getColor(primary);
+}
+
+p, 
+a, 
+i{
+    color: getColor(tertiery);
+}
+.active {
+    background-color: getColor(white);
+}

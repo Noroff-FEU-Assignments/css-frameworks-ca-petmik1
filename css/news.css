@@ -1,0 +1,10 @@
+.news__btn--active {
+  width: 100px;
+  height: 100px;
+  background-color: getColor(background1);
+  border: solid 1px getColor(primary);
+}
+
+.active-2 {
+  background-color: black;
+}/*# sourceMappingURL=news.css.map */

@@ -1,21 +1,4 @@
 @charset "UTF-8";
-body {
-  background: radial-gradient(circle at center, white, #e5e5e5);
-}
-
-.navbar-brand {
-  color: #E92569 !important;
-}
-
-footer {
-  background-color: #ffffff;
-}
-
-@media (min-width: 992px) {
-  footer {
-    flex-direction: row;
-  }
-}
 /*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -23,12 +6,20 @@ footer {
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-background1: white;
-  --bs-background2: #e5e5e5;
-  --bs-white: #ffffff;
-  --bs-primary: #E92569;
-  --bs-secendary: #EFEFEF;
-  --bs-tertiery: #767676;
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-black: #000;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
   --bs-gray-100: #f8f9fa;
   --bs-gray-200: #e9ecef;
   --bs-gray-300: #dee2e6;
@@ -10942,5 +10933,76 @@ textarea.form-control-lg {
   }
   .d-print-none {
     display: none !important;
+  }
+}
+body {
+  background: radial-gradient(circle at center, white, #e5e5e5);
+}
+
+.btn {
+  background-color: #E92569;
+  border-radius: 0;
+}
+
+h1, .h1 {
+  color: #E92569;
+}
+
+p,
+a,
+i {
+  color: #767676;
+}
+
+.active {
+  background-color: #ffffff;
+}
+
+.navbar-brand {
+  color: #E92569 !important;
+}
+
+.form__search {
+  border: 0;
+  border-radius: 5px;
+}
+
+.nav-link {
+  color: #0a0a0a;
+}
+
+.carousel-indicators [data-bs-target] {
+  height: 30px;
+  opacity: 1;
+}
+
+.carousel-indicators .active {
+  background-color: #E92569;
+}
+
+.news__btnGroup {
+  background-color: white;
+  border: solid 1px #E92569;
+}
+
+.footer {
+  background-color: #ffffff;
+}
+.footer__icons {
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+  .footer__wrapper {
+    margin-top: 1rem;
+    justify-content: space-between !important;
+    align-items: baseline;
+    flex-direction: row !important;
+  }
+  .footer__wrapper--text {
+    width: 66%;
+    justify-content: space-around !important;
   }
 }/*# sourceMappingURL=style.css.map */

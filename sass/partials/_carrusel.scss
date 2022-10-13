@@ -1,0 +1,7 @@
+.carousel-indicators [data-bs-target] {
+    height: 30px;
+    opacity: 1;
+}
+.carousel-indicators .active {
+  background-color: getColor(primary);
+}

@@ -1,11 +1,25 @@
-footer {
+.footer {
     // width: 100%;
     background-color: getColor(white);
+    &__icons {
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
+
 @media (min-width: 992px){
-    footer {
-        flex-direction: row;
-        
+    .footer {
+        &__wrapper {
+            margin-top: 1rem;
+            justify-content: space-between !important;
+            align-items: baseline;
+            flex-direction: row !important;
+            &--text{
+                width: 66%;
+                justify-content: space-around !important;
+            }
+        }
     }
 }

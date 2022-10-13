@@ -1,3 +1,14 @@
-.navbar-brand{
-    color: getColor(primary) !important;
+.navbar{
+    &-brand{
+        color: getColor(primary) !important;
+    }
+}
+.form__search {
+    border: 0;
+    border-radius: 5px;
+}
+.nav {
+    &-link {
+        color: getColor(quaternary);
+    }
 }
