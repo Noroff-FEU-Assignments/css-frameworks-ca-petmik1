@@ -11003,6 +11003,14 @@ i {
   opacity: 0.5;
 }
 
+.card {
+  margin: 0.3em;
+}
+.card__btn {
+  border: none;
+  border-radius: 5px;
+}
+
 .footer {
   background-color: #ffffff;
 }

@@ -22,3 +22,11 @@
         opacity: 0.5;
     }
 }
+
+.card {
+    margin: 0.3em;
+    &__btn {
+        border: none;
+        border-radius: 5px;
+    }
+}
