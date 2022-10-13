@@ -10980,9 +10980,27 @@ i {
   background-color: #E92569;
 }
 
-.news__btnGroup {
+.news__btn-group {
+  display: flex;
+}
+.news__active {
+  color: white;
+}
+.news__standard {
   background-color: white;
   border: solid 1px #E92569;
+  color: #E92569;
+}
+.news__standard:hover {
+  opacity: 0.5;
+  background-color: white;
+  border: solid 1px #E92569;
+  color: #E92569;
+}
+.news__active:hover {
+  color: white;
+  background-color: #E92569;
+  opacity: 0.5;
 }
 
 .footer {
