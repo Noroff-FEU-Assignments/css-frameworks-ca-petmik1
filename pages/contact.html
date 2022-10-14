@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Document</title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-md ">
+        <div class="container-fluid align-content-center justify-content-center">
+            <a class="navbar-brand" href="#">The YAY Company</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mt-3" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="pages/news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex justify-content-center" role="search">
+                    <input class="form__search" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn" type="submit">
+                        go
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <main class="w-75 mx-auto">
+        <div class="mt-4">
+            <div class="d-flex align-items-baseline">
+                <i class="fa-solid fa-envelope me-5"></i>
+                <p>hello@yay.com</p>
+            </div>
+            <div class="d-flex align-items-baseline">
+                <i class="fa-solid fa-phone me-5"></i>
+                <p>123 456 7890</p>
+            </div>
+            <div class="d-flex align-items-baseline">
+                <i class="fa-solid fa-location-dot me-5"></i>
+                <p>123 Some Street <br>
+                    Somewhere <br>
+                    Some City <br>
+                    10000</p>
+            </div>
+            
+        </div>
+        <div>
+            <h1 class="my-3">Submit your details</h1>
+            <form class="form w-100">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">website</label>
+                    <input type="url" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    
+                </div>
+    
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Allow us to sell your personal details to whomever we want</label>
+                </div>
+                <button type="submit" class="btn btn-primary form__btn w-100">Submit</button>
+            </form>
+        </div>
+       
+    </main>
+
+    <footer class="mt-auto footer">
+        <div class="footer__wrapper w-75 d-flex mx-auto flex-column justify-content-center align-items-center">
+            <div class="footer__icons">
+                <i class=" fa-brands fa-vimeo-v"></i>
+                <i class=" fa-brands fa-youtube"></i>
+            </div>
+            <div class="footer__wrapper--text d-flex ">
+                <p class="mx-2">hello@yay.com</p>
+                <p class="mx-2">copyright 2020</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="https://kit.fontawesome.com/aa0d6dd9bd.js" crossorigin="anonymous"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</html>

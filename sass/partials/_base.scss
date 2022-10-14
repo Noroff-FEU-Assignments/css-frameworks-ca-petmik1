@@ -6,6 +6,11 @@ body {
 .btn {
     background-color: getColor(primary);
     border-radius: 0;
+    border: none;
+}
+.btn:hover {
+    opacity: 0.5;
+    background-color: getColor(primary);
 }
 h1 {
     color: getColor(primary);

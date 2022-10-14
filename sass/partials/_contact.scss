@@ -1,0 +1,19 @@
+.form {
+    background-color: getColor(secendary);
+    &-control{
+        border-radius: 0;
+        border: none;
+}
+    &-check-input {
+        background-color: getColor(primary);
+        border: none;
+    }
+    &-check-input:checked {
+        background-color: getColor(primary);
+        border: none;
+    }
+    &__btn {
+        background-color: getColor(tertiery);
+        border-radius: 2px;
+    }
+}

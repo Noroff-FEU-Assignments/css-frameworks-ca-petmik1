@@ -10942,6 +10942,12 @@ body {
 .btn {
   background-color: #E92569;
   border-radius: 0;
+  border: none;
+}
+
+.btn:hover {
+  opacity: 0.5;
+  background-color: #E92569;
 }
 
 h1, .h1 {
@@ -10958,6 +10964,10 @@ i {
   background-color: #ffffff;
 }
 
+.navbar {
+  background-color: #EFEFEF;
+  width: 100%;
+}
 .navbar-brand {
   color: #E92569 !important;
 }
@@ -11009,6 +11019,27 @@ i {
 .card__btn {
   border: none;
   border-radius: 5px;
+  width: 100%;
+}
+
+.form {
+  background-color: #EFEFEF;
+}
+.form-control {
+  border-radius: 0;
+  border: none;
+}
+.form-check-input {
+  background-color: #E92569;
+  border: none;
+}
+.form-check-input:checked {
+  background-color: #E92569;
+  border: none;
+}
+.form__btn {
+  background-color: #767676;
+  border-radius: 2px;
 }
 
 .footer {
