@@ -11,9 +11,9 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-  <nav class="navbar navbar-expand-lg w-75 m-auto">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">The YAY Company</a>
+  <nav class="navbar navbar-expand-lg mB-lg-5">
+    <div class="container-fluid mx-lg-5 w-100">
+      <a class="navbar-brand" href="index.html">The YAY Company</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -32,7 +32,7 @@
         </ul>
         <form class="d-flex justify-content-center" role="search">
           <input class="form__search" type="search" placeholder="Search" aria-label="Search" />
-          <button class="btn" type="submit">
+          <button class="btn nav__btn" type="submit">
             go
           </button>
         </form>
@@ -42,8 +42,8 @@
   <div class="carrusel">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active carrusel__button"
-          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+          class="active carrusel__button" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="carrusel__button"
           aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="carrusel__button"
@@ -83,13 +83,147 @@
       euismod, pretium lacinia magna. Donec mi orci, sollicitudin in luctus a,
       varius eget massa.
     </p>
-    <div class="tabs">
-      <nav>
-        <div>
 
-        </div>
-      </nav>
+    <div class="d-lg-none">
+      <ul class="nav nav-tabs d-flex flex-column flex-lg-row d-lg-none " id="myTab" role="tablist">
+        <li class="nav-item tabs__background" role="presentation">
+          <button class="nav-link show active  w-100" id="first-tab" data-bs-toggle="tab"
+            data-bs-target="#first-tab-pane" type="button" role="tab" aria-controls="first-tab-pane"
+            aria-selected="false">first
+          </button>
+          <div class="tab-content d-flex flex-column" id="myTabContent">
+            <div class="tab-pane fade d-lg-none " id="first-tab-pane" role="tabpanel" aria-labelledby="first-tab"
+              tabindex="0">
+              <img src="images/tab/tab-1.jpg" class="w-75 mt-3" alt="">
+              <p class="w-75"> Morbi
+                eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo
+                laoreet a.
+                Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed
+                condimentum
+                mattis rhoncus.</p>
+              <div class="tabs__sm--sosial d-flex w-25 justify-content-evenly">
+                <span>share</span>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item tabs__background" role="presentation">
+          <button class="nav-link tabs__background w-100" id="second-tab" data-bs-toggle="tab" data-bs-target="#second-tab-pane"
+            type="button" role="tab" aria-controls="second-tab-pane" aria-selected="false">second
+          </button>
+          <div class="tab-content d-flex flex-column" id="myTabContent">
+            <div class="tab-pane fade d-lg-none " id="second-tab-pane" role="tabpanel" aria-labelledby="second-tab"
+              tabindex="0">
+              <img src="images/tab/tab-1.jpg" class="w-75 mt-3" alt="">
+              <p class="w-75"> Morbi
+                eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo
+                laoreet a.
+                Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed
+                condimentum
+                mattis rhoncus.</p>
+              <div class="tabs__sm--sosial d-flex w-25 justify-content-evenly">
+                <span>share</span>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item tabs__background" role="presentation">
+          <button class="nav-link w-100" id="third-tab" data-bs-toggle="tab" data-bs-target="#third-tab-pane"
+            type="button" role="tab" aria-controls="third-tab-pane" aria-selected="false">third
+          </button>
+          <div class="tab-content d-flex flex-column" id="myTabContent">
+            <div class="tab-pane fade d-lg-none" id="third-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+              tabindex="0">
+              <img src="images/tab/tab-1.jpg" class="w-75 mt-3" alt="">
+              <p class="w-75"> Morbi
+                eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo
+                laoreet a.
+                Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed
+                condimentum
+                mattis rhoncus.</p>
+              <div class="tabs__sm--sosial d-flex w-25 justify-content-evenly">
+                <span>share</span>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+            </div>
+          </div>
+        </li>
+
+      </ul>
     </div>
+
+
+
+    <div class="d-none d-lg-block">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+            type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+            type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+            type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+          tabindex="0"><img src="images/tab/tab-1.jpg" class="w-75 mt-3" alt="">
+          <p class="w-75"> Morbi
+            eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo
+            laoreet a.
+            Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed
+            condimentum
+            mattis rhoncus.</p>
+          <div class="tabs__sm--sosial d-flex w-25 justify-content-evenly">
+            <span>share</span>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+          <img src="images/tab/tab-1.jpg" class="w-75 mt-3" alt="">
+          <p class="w-75"> Morbi
+            eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo
+            laoreet a.
+            Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed
+            condimentum
+            mattis rhoncus.</p>
+          <div class="tabs__sm--sosial d-flex w-25 justify-content-evenly">
+            <span>share</span>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+          <img src="images/tab/tab-1.jpg" class="w-75 mt-3" alt="">
+          <p class="w-75"> Morbi
+            eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo
+            laoreet a.
+            Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed
+            condimentum
+            mattis rhoncus.</p>
+          <div class="tabs__sm--sosial d-flex w-25 justify-content-evenly">
+            <span>share</span>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
   </main>
   <footer class="w-100 mt-auto footer">
     <div class="footer__wrapper w-75 d-flex mx-auto flex-column justify-content-center align-items-center">
@@ -103,29 +237,8 @@
       </div>
     </div>
   </footer>
-
 </body>
 <script src="https://kit.fontawesome.com/aa0d6dd9bd.js" crossorigin="anonymous"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
 </html>
-<!-- 
-      <div class="d-flex">
-          <div class="flex-shrink-0">
-            <img src="images/tab/tab-1.jpg" alt="...">
-          </div>
-          <div class="flex-grow-1 ms-3">
-            <p>
-              Morbi eget efficitur turpis. Vivamus pellentesque tortor massa,
-              venenatis pharetra leo laoreet a. Nullam non eleifend justo, a
-              ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed
-              condimentum mattis rhoncus.
-            </p>
-            <div class="d-flex align-self-center">
-              <p class="ml-1 ">SHARE</p>
-              <i class="ml-2 fa-brands fa-facebook-f"></i>
-              <i class="ml-2 fa-brands fa-twitter"></i>
-            </div>
-          </div>
-        </div> 
-      -->

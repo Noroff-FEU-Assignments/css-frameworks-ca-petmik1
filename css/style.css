@@ -10980,6 +10980,9 @@ i {
 .nav-link {
   color: #0a0a0a;
 }
+.nav__btn {
+  color: white;
+}
 
 .carousel-indicators [data-bs-target] {
   height: 30px;
@@ -10988,6 +10991,14 @@ i {
 
 .carousel-indicators .active {
   background-color: #E92569;
+}
+
+button {
+  text-align: left;
+}
+
+.tabs__background {
+  background-color: white;
 }
 
 .news__btn-group {
@@ -11040,6 +11051,8 @@ i {
 .form__btn {
   background-color: #767676;
   border-radius: 2px;
+  color: #ffffff;
+  margin: 0 auto;
 }
 
 .footer {

@@ -11,77 +11,79 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-    <nav class="navbar navbar-expand-md w-75">
-        <div class="container-fluid align-content-center justify-content-center">
-            <a class="navbar-brand" href="#">The YAY Company</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse mt-3" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100">
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="pages/news.html">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-                <form class="d-flex justify-content-center" role="search">
-                    <input class="form__search" type="search" placeholder="Search" aria-label="Search" />
-                    <button class="btn" type="submit">
-                        go
-                    </button>
-                </form>
-            </div>
+
+    <nav class="navbar navbar-expand-lg w-100 mx-auto">
+        <div class="container-fluid mx-lg-5">
+          <a class="navbar-brand" href="../index.html">The YAY Company</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse mt-3" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex justify-content-center" role="search">
+              <input class="form__search" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn nav__btn" type="submit">
+                go
+              </button>
+            </form>
+          </div>
         </div>
-    </nav>
-    <main class="w-75 mx-auto">
-        <div class="mt-4">
+      </nav>
+    <main class="d-lg-flex flex-lg-row-reverse mx-lg-auto">
+        <div class="mt-4 w-75 mx-auto d-lg-flex flex-column justify-content-lg-center">
             <div class="d-flex align-items-baseline">
-                <i class="fa-solid fa-envelope me-5"></i>
+                <i class="fa-solid fa-envelope me-5 mx-lg-5"></i>
                 <p>hello@yay.com</p>
             </div>
             <div class="d-flex align-items-baseline">
-                <i class="fa-solid fa-phone me-5"></i>
+                <i class="fa-solid fa-phone me-5 mx-lg-5"></i>
                 <p>123 456 7890</p>
             </div>
             <div class="d-flex align-items-baseline">
-                <i class="fa-solid fa-location-dot me-5"></i>
+                <i class="fa-solid fa-location-dot me-5 mx-lg-5"></i>
                 <p>123 Some Street <br>
                     Somewhere <br>
                     Some City <br>
                     10000</p>
             </div>
-            
         </div>
-        <div>
-            <h1 class="my-3">Submit your details</h1>
-            <form class="form w-100">
-                <div class="mb-3">
+        <div class="d-flex flex-column">
+            <h1 class="my-3 mx-auto w-75">Submit your details</h1>
+            <form class="form w-100 d-flex flex-column align-items-center justify-content-center">
+                <div class="mb-3 w-75 mx-auto">
                     <label for="exampleInputEmail1" class="form-label">Name</label>
                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
-                <div class="mb-3">
+                <div class="mb-3 w-75 mx-auto">
                     <label for="exampleInputEmail1" class="form-label">Email</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     
                 </div>
-                <div class="mb-3">
+                <div class="mb-3 w-75 mx-auto">
                     <label for="exampleInputEmail1" class="form-label">website</label>
                     <input type="url" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     
                 </div>
     
-                <div class="mb-3 form-check">
+                <div class="mb-3 form-check  w-75 mx-auto">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1">Allow us to sell your personal details to whomever we want</label>
                 </div>
-                <button type="submit" class="btn btn-primary form__btn w-100">Submit</button>
+                <div class="w-100 d-flex">
+                    <button type="submit" class="btn form__btn mx-auto w-75">Submit</button>
+                </div>
+                
             </form>
         </div>
        

@@ -15,5 +15,7 @@
     &__btn {
         background-color: getColor(tertiery);
         border-radius: 2px;
+        color: getColor(white);
+        margin: 0 auto;
     }
 }

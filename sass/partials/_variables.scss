@@ -6,10 +6,7 @@ $colors: (
     secendary:#EFEFEF,
     tertiery: #767676,
     quaternary: #0a0a0a
-
-    
 );
-
 @function getColor ($color){
     @return map-get($colors, $color )
 };
