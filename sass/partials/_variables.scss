@@ -1,11 +1,13 @@
 $colors: (
     background1:#ffff,
     background2:#e5e5e5, 
+    background3: #f5f5f5,
     white: #ffffff,
     primary: #E92569,
     secendary:#EFEFEF,
     tertiery: #767676,
     quaternary: #0a0a0a
+
 );
 @function getColor ($color){
     @return map-get($colors, $color )

@@ -2,7 +2,23 @@
 
 body {
     background: radial-gradient(circle at center, getColor(background1), getColor(background2));
-};
+}
+
+h1,
+h2,
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+}
+p, 
+button, 
+li, {
+    font-family: 'Lato', sans-serif;
+}
+.nav-link {
+    color: getColor(quaternary);
+}
+
+
 .btn {
     background-color: getColor(primary);
     border-radius: 0;

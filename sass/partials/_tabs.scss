@@ -2,9 +2,25 @@ button {
     text-align: left;
 }
 
+.nav-tabs .nav-item .nav-link {
+    border: none;
+    color: getColor(primary);
+    background-color: white;
+}
+
 .tabs {
-    &__background {
-        background-color: white;
+    &__large .nav-tabs .nav-item .nav-link {
+        background-color: getColor(background3);
     }
 
+    &__large .nav-tabs .nav-item .active {
+        background-color: white;
+        color: getColor(quaternary);
+    }
+    &__sosial i{
+        color: getColor(quaternary);
+    }
+    &__sosial p {
+        color: getColor(quaternary);
+    }
 }
